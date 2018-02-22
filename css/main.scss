@@ -1,0 +1,26 @@
+//vars
+$blue: rgb(43, 47, 95);
+$grey: rgb(57, 57, 57);
+
+// resolutions
+$tablets: 768px;
+$phones: 480px;
+
+//normalize
+@import "_misc/normalize";
+
+//adaptive
+@import "_misc/media";
+
+//setups
+@import "_misc/mixin";
+@import "_misc/_font";
+@import "_misc/layout";
+
+
+//blocks
+@import "blocks/section__title";
+@import "blocks/hero";
+@import "blocks/header";
+@import "blocks/hero__content";
+@import "blocks/slider-item__desc";

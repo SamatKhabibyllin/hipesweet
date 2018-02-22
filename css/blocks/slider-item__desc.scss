@@ -1,0 +1,31 @@
+.slider-item__text{
+    margin-top: rem(20px);
+    font-size: rem(15px);
+}
+.slider-item__desc__bottom{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: rem(20px);
+}
+.price{
+    font-family: 'Malina';
+    font-size: rem(62px);
+    line-height: 1;
+}
+.btn{
+    height: rem(42px);
+    width: rem(107px);
+    border-radius: rem(20px);
+    background: rgb(252, 162, 17);
+    text-align: center;
+    line-height: rem(42px);
+    cursor: pointer;
+    color: rgb(164, 21, 28);
+    font-size: rem(14px);
+    font-weight: bold;
+    &:hover{
+        background: rgb(203, 130, 13);
+    }
+}
