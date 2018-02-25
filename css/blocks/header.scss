@@ -21,6 +21,12 @@
     color: rgb(255, 255, 255);
     font-size: rem(16px);
     font-family: "Arial";
+    &:hover{
+        &:after{
+        transform: rotate(135deg);
+         transition: .5s;
+        }
+    }
     &:after{
         content: '';
         display: inline-block;
@@ -30,8 +36,10 @@
         border-bottom: 1px solid rgb(255, 255, 255);
         margin-left: rem(12px);
         transform: rotate(-45deg);
+         transition: .5s;
     }
 }
+
 .nav__link_after_none{
     margin-right: rem(12px);
    &:after{

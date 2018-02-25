@@ -1,0 +1,26 @@
+.team__item{
+    padding: rem(20px) rem(30px) rem(20px) rem(30px);
+}
+.team__item--active{
+    padding: rem(20px) rem(30px) rem(30px) rem(30px);
+    background: rgb(137, 50, 19);
+    border-radius: rem(20px);
+    position: relative;
+}
+.team__item__title--active{
+    color: rgb(255, 169, 43);
+}
+.team__item__desc--active{
+    color: rgb(255, 255, 255);
+}
+.triangle__team--active{
+    position: absolute;
+    width: rem(20px);
+    height: rem(20px);
+    background: rgb(137, 50, 19);
+    top: 100%;
+    left: 50%;
+    margin-left: rem(-10px);
+    margin-top: rem(-10px);
+    transform: rotate(45deg);
+}

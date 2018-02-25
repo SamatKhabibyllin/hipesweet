@@ -1,0 +1,25 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    margin-top: rem(30px);
+    &::placeholder{
+        color: white;
+    }
+}
+.checkbox-block{
+    display: flex;
+    margin-top: rem(30px);
+    align-items: flex-end;
+}
+ .label{
+        line-height: 1;
+        margin-left: rem(10px);
+        cursor: pointer
+    }
+

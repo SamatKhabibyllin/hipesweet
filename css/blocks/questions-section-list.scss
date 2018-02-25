@@ -1,0 +1,14 @@
+.questions-list{
+    margin-top: rem(70px);
+}
+.questions__item{
+    font-size: rem(22px);
+}
+.questions__item__title{
+    display: inline-block;
+    border-bottom: rem(2px) dashed rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: rem(22px);
+    font-family: 'Arial';
+    margin-bottom: rem(40px);
+}

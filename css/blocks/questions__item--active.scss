@@ -1,0 +1,17 @@
+.questions__item--active{
+    color: rgb(255, 177, 0);
+}
+.questions__item__title--active{
+    color: rgb(255, 177, 0);
+    border: none;
+}
+.questions__item__text--active{
+    height: auto;
+    font-size: rem(15px);
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    padding-bottom: rem(30px);
+    padding-left: rem(30px);
+    opacity: 1;
+    transition: opacity .5s;
+}

@@ -1,0 +1,36 @@
+.ingridients-hover-list{
+    position: absolute;
+    left: 100%;
+    background: rgba(255, 255, 255, .92);
+    width: rem(380px);
+    height: rem(240px);
+    border-radius: rem(20px);
+    padding: rem(35px) rem(60px) rem(35px) rem(35px);
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ingridients-hover__item{
+    display: flex;
+}
+.ingridients-hover__item-text,.ingridients-hover__item-weight{
+    font-size: rem(16px);
+    font-family: "Helvetica";
+    color: rgb(87, 87, 87);
+}
+.ingridients-hover__item-text{
+    margin-left: rem(10px);
+}
+.ingridients-hover__item-weight{
+    margin-left: auto;
+}
+.triangle{
+    border-bottom: rem(15px )solid rgba(255, 255, 255, .92);
+    border-left: rem(15px )solid transparent;
+    border-right: rem(15px )solid rgba(255, 255, 255, .92);
+    border-top: rem(15px )solid transparent;
+    position: absolute;
+    right: 100%;
+    margin-right: rem(-15px);
+    transform: rotate(135deg);
+}

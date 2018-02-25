@@ -1,0 +1,18 @@
+.questions-section{
+    background: url(/img/content/questions-section-bg.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.questions-section__title{
+    font-size: rem(40px);
+    font-family: 'Malina';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: rem(90px);
+}
+.questions-section__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,21 @@
+.socials-list{
+    display: flex;
+}
+.socials__item{
+    margin-right: rem(5px);
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.icon{
+    width: rem(20px);
+    height: rem(20px);
+    fill: rgb(141, 141, 141);
+    &:hover{
+        fill: rgb(252, 162, 17);
+    }
+}
+.icon-ok{
+    width: rem(25px);
+    height: rem(25px);
+}

@@ -1,0 +1,35 @@
+.section-four__bottom{
+    display: flex;
+    justify-content: center;
+    padding-bottom: rem(50px);
+}
+.form__container{
+    background: url(/img/content/form-bg.jpg) center center no-repeat;
+    background-size: cover;
+    border-radius: rem(20px);
+    height: 408px;
+    width: 80%;
+    display: flex;
+    position: relative;
+}
+.form__container__left,.form__container__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.form__container__title{
+    font-size: rem(64px);
+    color: rgb(255, 255, 255);
+    font-family: 'Malina';
+    text-align: center;
+}
+.form__container__right{
+    background: rgba(29, 29, 32, .84);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 rem(20px) rem(20px) 0;
+}

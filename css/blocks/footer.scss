@@ -1,0 +1,20 @@
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: rem(20px);
+    padding-top: rem(20px);
+}
+.footer__logo__pic{
+    width: 99%;
+}
+.footer__logo__title{
+    font-family: 'Malina';
+    font-size: rem(30px);
+    color: rgb(252, 162, 17);
+}
+.copyright,.footer__adress{
+    font-size: rem(14px);
+    font-family: 'Arial';
+    color: rgb(141, 141, 141);
+}

@@ -1,0 +1,39 @@
+//top
+.section-four{
+    background: radial-gradient(rgb(252, 252, 252),rgb(205, 203, 203));
+    padding-bottom: rem(50px);
+}
+.section-four__top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: rem(80px);
+}
+.team-list{
+    display: flex;
+    justify-content: space-between;
+}
+.team__item__title{
+    font-family: 'Malina';
+    font-size: rem(30px);
+    color: $blue;
+}
+.team__item__desc{
+    color: rgb(141, 141, 141);
+}
+//content
+.section-four__content{
+    display: flex;
+    margin-top: rem(50px);
+}
+.section-four__left-text,.section-four__right-text{
+    font-size: rem(12px);
+    font-family: "Arial";
+    color: rgb(116, 116, 116);
+}
+.section-four__left-text{
+    p{
+        &:last-child{
+            font-weight: bold;
+        }
+    }
+}
